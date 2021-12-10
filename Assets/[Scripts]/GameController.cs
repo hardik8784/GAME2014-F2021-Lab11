@@ -13,4 +13,8 @@ public class GameController : MonoBehaviour
         player.position = playerSpawnPoint.position;
     }
 
+    public void SetSpawnPoint(Vector3 newCheckpoint)
+    {
+        playerSpawnPoint.position = newCheckpoint;
+    }
 }
